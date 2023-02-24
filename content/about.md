@@ -8,7 +8,12 @@ date: 2023-02-24T11:25:33+05:30
   "Name": "Advik",
     "Location": "New Delhi, India",
     "Occupation": "Software Engineer",
-    "Hobbies": [],
+    "Hobbies": [
+      "Breathing",
+      "Programming",
+      "Finance",
+      "Reading about random things",
+    ],
     "Tech Stack" : {
       "Comfortable": [
         "Python",
