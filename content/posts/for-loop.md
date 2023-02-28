@@ -87,6 +87,8 @@ for i in Count():
 In `__iter__()` we are just returning self, because we're also implementing `__next__()` which is used to get the next element.
 The difference between using `__iter__()` and `__getitem__()` is that the latter also allows us to index a sequence, and sometimes that might not make much sense.
 ```python
+from random import Random
+
 # We inherit from the Random class to make our lives easier
 class RandomSequence(Random):
   def __iter__(self):
@@ -99,7 +101,7 @@ class RandomSequence(Random):
 
 rng = RandomSequence()
 print(next(rng))  # get the next random number
-print(next(rng))  # this will never end
+print(next(rng))  # we can get as many random numbers as we want.
 ```
 
 ## Conclusion
