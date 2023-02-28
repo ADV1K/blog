@@ -1,7 +1,7 @@
 ---
 title: "How does the for loop work in Python?"
 date: 2023-02-28T01:02:33+05:30
-draft: true
+<!-- draft: true -->
 ---
 
 Most container objects in Python can be looped over using a `for` statement.  
