@@ -1,5 +1,7 @@
 # Advik's Blog
 
+[![Blog's Screenshot](https://i.imgur.com/MgTpxFj.png)](https://advik.one)
+
 I write the content in Markdown. you can find it [here](https://github.com/ADV1K/blog/tree/main/content).  
 
 I am using [Hugo](https://gohugo.io) alongwith the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.  
